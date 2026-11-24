@@ -6,6 +6,11 @@ name: xhs-harvest
 description: "小红薯公开数据采集（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.3
+display_name: "小红薯数据采集｜笔记详情·评论舆情·主页作品·搜笔记批量"
+display_name_en: "Xiaohongshu Harvest"
+description_zh: "小红书公开数据只读采集（无需登录小红书账号，无封号风险）：关键词搜笔记（综合/最新/最多点赞/最多评论/最多收藏，近 1 日/一周/半年时间窗，视频与图文筛选）、笔记详情（正文、图片、互动数、作者）、评论抓取（可按近 N 天或指定时间过滤）、博主作品列表与粉丝/获赞/收藏/互动数据，另附爆款选题挖掘，全部输出统一的成功/无结果/失败结构化 JSON 信封，可直接导入 Excel/BI 或交给 AI 做选题库、评论聚类、KOL 筛选、竞品对比、舆情周报。支持整段粘贴 App 分享文案自动抽链并保留 xsec_token；枚举越界直接失败不偷改默认值。按量 Token 单次最多 10000 条，包月 Token 搜索最多 40、作品最多 30、评论最多 20，超限返回 PLAN_LIMIT；详情无条数限制。不登录、不发布、不点赞、不评论、不关注；零第三方依赖，Node.js 16.14+ 直接运行，国内直连无需代理。触发词：小红书搜索、小红书评论、小红书笔记详情、博主作品、粉丝数据、选题挖掘、爆款分析、KOL 筛选、舆情监控、竞品监控。"
+description_en: "Read-only Xiaohongshu (RED) public-data skill - no login, no ban risk. Keyword note search with relevance, newest, most-liked, most-commented and most-collected sorting plus 1-day, 1-week and half-year windows and video/image filters; note detail with body and engagement; comments filtered by recent N days; creator works with follower and engagement stats; viral-topic mining. Every call returns one JSON envelope for success, empty or failure, ready for Excel/BI or AI analysis. Pasted app share text is auto-parsed with xsec_token kept; out-of-range enums fail instead of silently defaulting. Pay-per-use tokens allow 10,000 items per call; monthly plans cap search 40, works 30, comments 20 (over-limit returns PLAN_LIMIT); detail is uncapped. Never logs in, publishes, likes, comments or follows. Zero dependencies, Node.js 16.14+, no proxy in mainland China. Triggers: xiaohongshu search, rednote comments, note detail, creator works, follower stats, topic mining, KOL screening."
+author: "新郑市怪奇信息技术工作室"
 category: 数据分析
 homepage: https://www.guaikei.com
 metadata:
