@@ -1,10 +1,10 @@
-# 📕 小红薯数据采集｜笔记详情 · 评论舆情 · 主页作品 · 搜笔记批量
+# 📕 小红薯数据采集｜笔记详情 · 评论舆情 · 主页作品 · 搜笔记批量（无需登录 / 不封号）
 
 > **💡 一句话价值**：给一个关键词或一条链接，拿回小红书公开笔记、评论和博主数据——直接输出结构化 JSON。做爆款选题、盯竞品、筛 KOL、读评论区，不用再手工刷一小时再记点赞。
 
 **只读公开数据 · 不登录你的小红书账号 · 按量最多 1 万条；包月搜索 / 作品 / 评论分别最多 40 / 30 / 20 · 装进 Agent 就能用口语化指令获取数据**
 
-**维护状态**：持续更新中，当前版本 `1.2.3`，[更新日志](references/changelog.md)。Agent 执行卡见 [SKILL.md](SKILL.md)。
+**维护状态**：持续更新中，当前版本 `1.2.4`，[更新日志](references/changelog.md)。Agent 执行卡见 [SKILL.md](SKILL.md)。
 
 👉 开通 [开通小红书素材采集数据API TOKEN](https://www.guaikei.com)
 
@@ -182,7 +182,7 @@ node src/xiaohongshu/post-cli.js --url "https://www.xiaohongshu.com/user/profile
     "limit": 20
   },
   "metadata": {
-    "skill_version": "1.2.3",
+    "skill_version": "1.2.4",
     "runtime_version": "22.x",
     "execution_time": 34210
   },
